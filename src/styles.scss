@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap-material-design/scss/bootstrap-material-design';
+
+$linkedin-color: #0077B5;
+$gplus-color: #DD4F43;
+
+.bg-linkedin {
+    background-color: $linkedin-color !important;
+}
+
+.btn-linkedin {
+    background-color: $linkedin-color !important;
+    color: $light;    
+}
+
+.text-linkedin {
+    color: $linkedin-color;    
+}
+
+
+.bg-gplus {
+    background-color: $gplus-color !important;
+}
+
+.btn-gplus {
+    background-color: $gplus-color !important;
+    color: $light;    
+}
+
+.text-gplus {
+    color: $gplus-color;    
+}
