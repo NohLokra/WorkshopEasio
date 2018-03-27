@@ -15,11 +15,22 @@ export class NavbarComponent implements OnInit {
         ],
         icon: 'fal fa-home'
     }, {
-        label: 'Connectivité',
+        label: 'Mon Profil',
         href: [
-            '/connectivite'
+            '/profil'
         ],
-        icon: 'fal fa-handshake'
+        icon: 'fal fa-user'
+    }, {
+        label: 'Connectivité',
+        icon: 'fal fa-handshake',
+        href: [],
+        subMenu: [{
+            label: 'Fonctionnalités téléphone',
+            href: ['/connectivite', 'telephone']
+        }, {
+            label: 'Objets connectés',
+            href: ['/connectivite', 'objets-connectes']
+        }]
     }, {
         label: 'Communication',
         href: [

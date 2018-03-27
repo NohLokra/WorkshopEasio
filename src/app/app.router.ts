@@ -9,17 +9,19 @@ import { PhotographyPageComponent } from './ui/pages/photography-page/photograph
 import { OfficePageComponent } from './ui/pages/office-page/office-page.component';
 import { FinancesPageComponent } from './ui/pages/finances-page/finances-page.component';
 import { LoginPageComponent } from './ui/pages/login-page/login-page.component';
+import { ProfilePageComponent } from './ui/pages/profile-page/profile-page.component';
 
 const routes: Routes = [
     { path: '', component: HomePageComponent },
     { path: 'professionnel', component: HomePageComponent },
     { path: 'reseaux-sociaux', component: SocialNetworksPageComponent },
-    { path: 'connectivite', component: ConnectivityPageComponent },
+    { path: 'connectivite/telephone', component: ConnectivityPageComponent },
     { path: 'communication', component: CommunicationPageComponent },
     { path: 'finance', component: FinancesPageComponent },
     { path: 'photographie', component: PhotographyPageComponent },
     { path: 'bureautique', component: OfficePageComponent },
     { path: 'connexion', component: LoginPageComponent },
+    { path: 'profil', component: ProfilePageComponent },
     { path: '**', component: HomePageComponent }
 ];
 
