@@ -20,6 +20,7 @@ import { PhotographyPageComponent } from './ui/pages/photography-page/photograph
 import { OfficePageComponent } from './ui/pages/office-page/office-page.component';
 import { ProfilePageComponent } from './ui/pages/profile-page/profile-page.component';
 import { LoginPageComponent } from './ui/pages/login-page/login-page.component';
+import { LabeledIconComponent } from './ui/components/labeled-icon/labeled-icon.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { LoginPageComponent } from './ui/pages/login-page/login-page.component';
     PhotographyPageComponent,
     OfficePageComponent,
     ProfilePageComponent,
-    LoginPageComponent
+    LoginPageComponent,
+    LabeledIconComponent
   ],
   imports: [
     BrowserModule,
