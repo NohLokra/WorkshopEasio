@@ -12,13 +12,29 @@ import { NavbarComponent } from './ui/components/navbar/navbar.component';
 import { SidebarItemComponent } from './ui/components/sidebar-item/sidebar-item.component';
 
 import { CollapseModule } from 'ngx-bootstrap/collapse';
+import { SocialNetworksPageComponent } from './ui/pages/social-networks-page/social-networks-page.component';
+import { ConnectivityPageComponent } from './ui/pages/connectivity-page/connectivity-page.component';
+import { CommunicationPageComponent } from './ui/pages/communication-page/communication-page.component';
+import { FinancesPageComponent } from './ui/pages/finances-page/finances-page.component';
+import { PhotographyPageComponent } from './ui/pages/photography-page/photography-page.component';
+import { OfficePageComponent } from './ui/pages/office-page/office-page.component';
+import { ProfilePageComponent } from './ui/pages/profile-page/profile-page.component';
+import { LoginPageComponent } from './ui/pages/login-page/login-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
     NavbarComponent,
-    SidebarItemComponent
+    SidebarItemComponent,
+    SocialNetworksPageComponent,
+    ConnectivityPageComponent,
+    CommunicationPageComponent,
+    FinancesPageComponent,
+    PhotographyPageComponent,
+    OfficePageComponent,
+    ProfilePageComponent,
+    LoginPageComponent
   ],
   imports: [
     BrowserModule,

@@ -1,45 +1,98 @@
 <div class="row">
-  <div class="col-12 col-md-6 col-lg-4 mt-4">
-    <div class="card">
-      <div class="card-header bg-linkedin text-light">
-        Linked
-        <i class="fab fa-linkedin"></i>
-      </div>
-      <ul class="list-group list-group-flush pb-0 text-linkedin">
-        <li class="list-group-item">
-          3 Demandes de contact
-        </li>
-        <li class="list-group-item">
-          5 Messages privés en attente
-        </li>
-      </ul>
-      <a class="w-100 m-0 btn btn-linkedin card-footer" target="_blank" href="https://www.linkedin.com/">
-        Accéder à mon compte
-      </a>
+    <div class="col-12 col-md-6 col-lg-4 my-2">
+        <div class="card">
+            <div class="card-header bg-primary text-light">
+                Offres d'emploi
+            </div>
+            <ul class="list-group list-group-flush pb-0">
+                <li class="list-group-item">
+                    Agent de vente indépendant h/f 34-35 ans - 13 Marseille
+                    <br/>
+                    <small>Marseille - 3 500 € - 1 Candidat</small>
+                </li>
+                <li class="list-group-item">
+                    Agent de vente indépendant h/f 34-35 ans - 01 Bourg-En-Bresse
+                    <br/>
+                    <small>Bourg-En-Bresse - 3 500 € - 0 Candidat</small>
+                </li>
+                <!-- <li class="list-group-item">
+                    Agent de vente indépendant h/f 34-35 ans - 42 St Etienne
+                    <br/>
+                    <small>St Etienne - 3 500 € - 1 Candidat</small>
+                </li>
+                <li class="list-group-item">
+                    Agent de vente indépendant h/f 34-35 ans - Paris
+                    <br/>
+                    <small>Paris - 3 500 € - 0 Candidat</small>
+                </li> -->
+            </ul>
+            <a class="w-100 m-0 btn bg-primary text-light card-footer" [routerLink]='["/professionel", "offres"]'>
+                <i class="fal fa-briefcase" data-fa-transform="grow-6 left-6"></i> Voir plus d'offres
+            </a>
+        </div>
     </div>
-  </div>
-  <div class="col-12 col-md-6 col-lg-4 mt-4">
-    <div class="card">
-      <div class="card-header bg-gplus text-light">
-        <i class="fab fa-google" data-fa-transform="grow-1 up-2"></i>oogle <i class="fas fa-plus"></i>
-      </div>
-      <ul class="list-group list-group-flush pb-0 text-gplus">
-        <li class="list-group-item">
-          3 Demandes de contact
-        </li>
-        <li class="list-group-item">
-          5 Messages privés en attente
-        </li>
-        <li class="list-group-item">
-          5 Messages privés en attente
-        </li>
-        <li class="list-group-item">
-          5 Messages privés en attente
-        </li>
-      </ul>
-      <a class="w-100 m-0 btn btn-gplus card-footer" target="_blank" href="https://plus.google.com/">
-        Accéder à mon compte
-      </a>
+    <div class="col-12 col-md-6 col-lg-4 my-2">
+        <div class="card">
+            <div class="card-header bg-success text-light">
+                Formations
+            </div>
+            <ul class="list-group list-group-flush pb-0">
+                <li class="list-group-item">
+                    Photoshop
+                    <br/>
+                    <small>Formation en ligne</small>
+                </li>
+                <li class="list-group-item">
+                    Adobe Illustrator
+                    <br/>
+                    <small>Formation en ligne</small>
+                </li>
+                <!-- <li class="list-group-item">
+                        Agent de vente indépendant h/f 34-35 ans - 42 St Etienne
+                        <br/>
+                        <small>St Etienne - 3 500 € - 1 Candidat</small>
+                    </li>
+                    <li class="list-group-item">
+                        Agent de vente indépendant h/f 34-35 ans - Paris
+                        <br/>
+                        <small>Paris - 3 500 € - 0 Candidat</small>
+                    </li> -->
+            </ul>
+            <a class="w-100 m-0 btn bg-success text-light card-footer" [routerLink]='["/professionel", "offres"]'>
+                <i class="fal fa-graduation-cap" data-fa-transform="grow-6 left-6"></i> Plus de formations
+            </a>
+        </div>
     </div>
-  </div>
+    <div class="col-12 col-md-6 col-lg-4 my-2">
+        <div class="card">
+            <div class="card-header bg-info text-light">
+                Missions
+            </div>
+            <ul class="list-group list-group-flush pb-0">
+                <li class="list-group-item">
+                    Agent de vente indépendant h/f 34-35 ans - 13 Marseille
+                    <br/>
+                    <small>Marseille - 3 500 € - 1 Candidat</small>
+                </li>
+                <li class="list-group-item">
+                    Agent de vente indépendant h/f 34-35 ans - 01 Bourg-En-Bresse
+                    <br/>
+                    <small>Bourg-En-Bresse - 3 500 € - 0 Candidat</small>
+                </li>
+                <!-- <li class="list-group-item">
+                            Agent de vente indépendant h/f 34-35 ans - 42 St Etienne
+                            <br/>
+                            <small>St Etienne - 3 500 € - 1 Candidat</small>
+                        </li>
+                        <li class="list-group-item">
+                            Agent de vente indépendant h/f 34-35 ans - Paris
+                            <br/>
+                            <small>Paris - 3 500 € - 0 Candidat</small>
+                        </li> -->
+            </ul>
+            <a class="w-100 m-0 btn bg-info text-light card-footer" [routerLink]='["/professionel", "offres"]'>
+                <i class="fal fa-map-pin" data-fa-transform="grow-6 left-6"></i> Plus de missions
+            </a>
+        </div>
+    </div>
 </div>
