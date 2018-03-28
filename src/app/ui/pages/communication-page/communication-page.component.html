@@ -1,3 +1,14 @@
-<p>
-  communication-page works!
-</p>
+<div class="row justify-content-around my-2">
+    <button class="btn bg-success text-light col-5 col-md-4 col-lg-2 py-3 my-3">
+        <app-labeled-icon [icon]="'fal fa-comment-alt-smile'" [label]="'SMS'"></app-labeled-icon>
+    </button>
+    <button class="btn bg-warning text-light col-5 col-md-4 col-lg-2 py-3 my-3">
+        <app-labeled-icon [icon]="'fal fa-mobile'" [label]="'Appels'"></app-labeled-icon>
+    </button>
+    <button class="btn bg-primary text-light col-5 col-md-4 col-lg-2 py-3 my-3">
+        <app-labeled-icon [icon]="'fal fa-envelope'" [label]="'Mails'"></app-labeled-icon>
+    </button>
+    <button class="btn bg-danger text-light col-5 col-md-4 col-lg-2 py-3 my-3">
+        <app-labeled-icon [icon]="'fal fa-comments'" [label]="'Chat'"></app-labeled-icon>
+    </button>
+</div>
